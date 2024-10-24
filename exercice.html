@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 1 - Disposition flexible de navigation</title>
+  <style>
+    nav ul {
+      display: flex;
+      justify-content: space-between; /* Espace égal entre les éléments */
+      list-style-type: none;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    nav li {
+      padding: 10px;
+    }
+
+    nav li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    nav li a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/products">Our Products</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
